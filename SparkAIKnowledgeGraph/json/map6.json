@@ -1,0 +1,69 @@
+[
+	{
+		"name": "局部测光",
+		"children": 
+		[
+			{
+				"name": "点测光", "value": 30,
+				"children":
+				[
+					{
+						"name": "高精度", "value": 10
+					},
+					{
+						"name": "曝光补偿", "value": 10
+					}
+				]
+			},
+		
+			{
+				"name": "拍摄主体", "value": 30,
+				"children":
+				[
+					{
+						"name": "拍摄方法", "value": 10
+					},
+					{
+						"name": "计算摄影", "value": 10
+					}
+				]
+			},
+			{
+				"name": "多区域测光", "value": 30,
+				"children":
+				[
+					{
+						"name": "反光率", "value": 10
+					},
+					{
+						"name": "环境光比", "value": 10
+					}
+				]
+			},
+			{
+				"name": "测光", "value": 30,
+				"children":
+				[
+					{
+						"name": "卷帘曝光", "value": 10
+					},
+					{
+						"name": "全局曝光", "value": 10
+					}
+				]
+			},
+			{
+				"name": "加权平均测光", "value": 30,
+				"children":
+				[
+					{
+						"name": "感光度", "value": 10
+					},
+					{
+						"name": "图片质量", "value": 10
+					}
+				]
+			}
+		]
+	}
+]

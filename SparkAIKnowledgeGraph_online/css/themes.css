@@ -1,0 +1,87 @@
+* {
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.content {
+	display: flex;
+
+}
+.content-body {
+	/*position: absolute;*/
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	line-height: 1;
+}
+#title {
+    /*color:#fff;*/
+    font-size:32px;
+    margin:40px;
+    text-align:center;
+}
+#search {
+	width: 100%;
+	margin: 20px 0 0 0;
+	text-align:center;
+
+}
+#search input {
+	border-radius: 24px;
+	text-align: center;
+}
+#kg-body {
+	max-width: 100%;
+	width: 100%;
+	height:74vh;
+	text-align:center;
+}
+#kg-left {
+	width: 15%;
+	height:74vh;
+	float: left;
+	/*background-color: #000;*/
+}
+#chartdiv {
+	width: 70%;
+	height:74vh;
+	margin-bottom: -20px;
+	float: left;
+	/*background-color: #fff;*/
+}
+#themes {
+	width: 5.5%;
+	height:74vh;
+	float: right;
+	text-align:center;
+	margin-right: 2%;
+	/*background-color: #000;*/
+}
+#themes button{
+	float: left;
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*margin-left: 10%;*/
+}
+#themes a{
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#themes span{
+	float: left;
+	text-align:center;
+	margin-top: 50px;
+	margin-left: 28px;
+	margin-bottom: 10px;
+}
+.copyright {
+	color:#fff;
+    font-size:16px;
+    margin-bottom: 10px;
+	text-align:center;
+	/*clear: both;*/
+}

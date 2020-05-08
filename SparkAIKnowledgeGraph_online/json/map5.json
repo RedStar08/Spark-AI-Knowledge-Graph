@@ -1,0 +1,84 @@
+[
+	{
+		"name": "信息抽取",
+		"children": 
+		[
+			{
+				"name": "文本结构", "value": 30, 
+				"children":
+				[
+					{
+						"name": "自由化", "value": 10
+					}, 
+					{
+						"name": "半结构化", "value": 10
+					}, 
+					{
+						"name": "结构化", "value": 10
+					}
+				]
+			},
+		
+			{
+				"name": "设计方法", "value": 30,
+				"children":
+				[
+					{
+						"name": "知识工程方法", "value": 10
+					},
+					{
+						"name": "自动训练方法", "value": 10
+					}
+				]
+			},
+			{
+				"name": "评价指标", "value": 30,
+				"children":
+				[
+					{
+						"name": "回召率", "value": 10
+					},
+					{
+						"name": "查准率", "value": 10
+					},
+					{
+						"name": "F1", "value": 10
+					}
+				]
+			},
+			{
+				"name": "信息检索", "value": 30,
+				"children":
+				[
+					{
+						"name": "非结构化", "value": 10
+					},
+					{
+						"name": "文本数据", "value": 10
+					},
+					{
+						"name": "搜索引擎", "value": 10
+					},
+					{
+						"name": "检索模型", "value": 10
+					}
+				]
+			},
+			{
+				"name": "分装器", "value": 30,
+				"children":
+				[
+					{
+						"name": "WG", "value": 10
+					},
+					{
+						"name": "IE", "value": 10
+					},
+					{
+						"name": "归纳学习", "value": 10
+					}
+				]
+			}
+		]
+	}
+]

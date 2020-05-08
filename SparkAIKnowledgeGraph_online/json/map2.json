@@ -1,0 +1,96 @@
+[
+	{
+		"name": "感知器",
+		"children": 
+		[
+			{
+				"name": "神经元", "value": 30, 
+				"children":
+				[
+					{
+						"name": "前馈神经元", "value": 10
+					}, 
+					{
+						"name": "卷积神经元", "value": 10
+					}, 
+					{
+						"name": "解卷积神经元", "value": 10
+					},
+					{
+						"name": "池化神经元", "value": 10
+					},
+					{
+						"name": "插值神经元", "value": 10
+					},
+					{
+						"name": "均值神经元", "value": 10
+					}
+				]
+			},
+		
+			{
+				"name": "多层感知机", "value": 30,
+				"children":
+				[
+					{
+						"name": "感知机", "value": 10
+					},
+					{
+						"name": "神经网络", "value": 10
+					}
+				]
+			},
+			{
+				"name": "线性", "value": 30,
+				"children":
+				[
+					{
+						"name": "非线性", "value": 10
+					},
+					{
+						"name": "缩放", "value": 10
+					},
+					{
+						"name": "旋转", "value": 10
+					},
+					{
+						"name": "弯曲", "value": 10
+					},
+					{
+						"name": "平移", "value": 10
+					}
+				]
+			},
+			{
+				"name": "组成", "value": 30,
+				"children":
+				[
+					{
+						"name": "输入", "value": 10
+					},
+					{
+						"name": "输出", "value": 10
+					},
+					{
+						"name": "权值", "value": 10
+					},
+					{
+						"name": "激活函数", "value": 10
+					}
+				]
+			},
+			{
+				"name": "单层感知机", "value": 30,
+				"children":
+				[
+					{
+						"name": "线性组合器", "value": 10
+					},
+					{
+						"name": "二值阈值元件", "value": 10
+					}
+				]
+			}
+		]
+	}
+]

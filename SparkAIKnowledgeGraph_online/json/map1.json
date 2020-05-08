@@ -1,0 +1,108 @@
+[
+	{
+		"name": "视觉测量",
+		"children": 
+		[
+			{
+				"name": "关键技术", "value": 30, 
+				"children":
+				[
+					{
+						"name": "被测目标", "value": 10
+					}, 
+					{
+						"name": "伺服装置", "value": 10
+					}, 
+					{
+						"name": "图像获取装置", "value": 10
+					},
+					{
+						"name": "图像存储器", "value": 10
+					},
+					{
+						"name": "光源", "value": 10
+					},
+					{
+						"name": "数据处理", "value": 10
+					}
+				]
+			},
+		
+			{
+				"name": "平行视差", "value": 30,
+				"children":
+				[
+					{
+						"name": "双目视差", "value": 10
+					},
+					{
+						"name": "深度距离", "value": 10
+					}
+				]
+			},
+			{
+				"name": "机器视觉", "value": 30,
+				"children":
+				[
+					{
+						"name": "图像处理", "value": 10
+					},
+					{
+						"name": "模式识别", "value": 10
+					},
+					{
+						"name": "计算理论", "value": 10
+					},
+					{
+						"name": "实现算法", "value": 10
+					},
+					{
+						"name": "表达", "value": 10
+					},
+					{
+						"name": "硬件细节", "value": 10
+					}
+				]
+			},
+			{
+				"name": "交叉学科", "value": 30,
+				"children":
+				[
+					{
+						"name": "计算机技术", "value": 10
+					},
+					{
+						"name": "激光技术", "value": 10
+					},
+					{
+						"name": "光电子学", "value": 10
+					},
+					{
+						"name": "图像处理", "value": 10
+					}
+				]
+			},
+			{
+				"name": "发展趋势", "value": 30,
+				"children":
+				[
+					{
+						"name": "高精度", "value": 10
+					},
+					{
+						"name": "在线测量", "value": 10
+					},
+					{
+						"name": "智能化", "value": 10
+					},
+					{
+						"name": "非接触", "value": 10
+					},
+					{
+						"name": "网络化", "value": 10
+					}
+				]
+			}
+		]
+	}
+]

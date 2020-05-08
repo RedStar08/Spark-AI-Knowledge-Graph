@@ -1,0 +1,102 @@
+[
+	{
+		"name": "语义识别",
+		"children": 
+		[
+			{
+				"name": "词典匹配", "value": 30, 
+				"children":
+				[
+					{
+						"name": "情感词典", "value": 10
+					}, 
+					{
+						"name": "程度词词典", "value": 10
+					}, 
+					{
+						"name": "连词词典", "value": 10
+					},
+					{
+						"name": "否定词典", "value": 10
+					}
+				]
+			},
+		
+			{
+				"name": "自动识别抽取", "value": 30,
+				"children":
+				[
+					{
+						"name": "基于事件元素驱动", "value": 10
+					},
+					{
+						"name": "基于事件触发词驱动", "value": 10
+					},
+					{
+						"name": "基于事件实例驱动", "value": 10
+					}
+				]
+			},
+			{
+				"name": "评价对象抽取", "value": 30,
+				"children":
+				[
+					{
+						"name": "任务界定", "value": 10
+					},
+					{
+						"name": "实体抽取和发现", "value": 10
+					},
+					{
+						"name": "开放域关系抽取", "value": 10
+					},
+					{
+						"name": "情感分析", "value": 10
+					}
+				]
+			},
+			{
+				"name": "隐形马尔科夫模型", "value": 30,
+				"children":
+				[
+					{
+						"name": "马尔可夫过程", "value": 10
+					},
+					{
+						"name": "隐马尔可夫模型", "value": 10
+					},
+					{
+						"name": "模型评估", "value": 10
+					},
+					{
+						"name": "解码问题", "value": 10
+					},
+					{
+						"name": "参数评估", "value": 10
+					}
+				]
+			},
+			{
+				"name": "属性抽取", "value": 30,
+				"children":
+				[
+					{
+						"name": "频率", "value": 10
+					},
+					{
+						"name": "语义关系", "value": 10
+					},
+					{
+						"name": "句法分析", "value": 10
+					},
+					{
+						"name": "隐马尔可夫模型", "value": 10
+					},
+					{
+						"name": "隐含属性的映射", "value": 10
+					}
+				]
+			}
+		]
+	}
+]
